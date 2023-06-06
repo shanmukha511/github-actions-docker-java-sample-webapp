@@ -45,7 +45,9 @@ jobs:
       - name: shell script
         run: |
           ls -latr
-          cd src/main/docker/
+          cd target/
+          #cd src/main/docker/
+          
           ls -latr
           pwd
 
