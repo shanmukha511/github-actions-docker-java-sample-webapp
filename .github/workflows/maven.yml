@@ -23,6 +23,7 @@ jobs:
          mvn clean install
          cd target/
          ls -latr
+         pwd
          
       
     
@@ -46,6 +47,7 @@ jobs:
           ls -latr
           cd src/main/docker/
           ls -latr
+          pwd
 
       - name: Build and push Docker image
         uses: docker/build-push-action@3b5e8027fcad23fda98b2e3ac259d8d67585f671
